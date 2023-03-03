@@ -17,6 +17,8 @@ public class Flight {
 	public String getAirline() {
 		return airline;
 	}
+
+
 	@Override
 	public String toString() {
 		return "Flight [source=" + source.getIata() + ", destination=" + destination.getIata() + ", airline=" + airline + "]";
